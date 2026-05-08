@@ -1,0 +1,99 @@
+Topic 1: Machine learning includes supervised learning, unsupervised learning, and reinforcement learning.
+
+Topic 2: Overfitting happens when a model memorizes training data and performs poorly on new examples.
+
+Topic 3: The bias-variance tradeoff balances underfitting and overfitting.
+
+Topic 4: Regularization such as L1 and L2 adds penalties that reduce model complexity.
+
+Topic 5: Cross-validation evaluates a model by splitting data into folds and rotating the validation set.
+
+Topic 6: Backpropagation computes gradients with the chain rule to update neural network weights.
+
+Topic 7: CNNs are primarily used for image and other grid-like data.
+
+Topic 8: LSTMs use gates to preserve useful information and reduce vanishing gradients.
+
+Topic 9: Common activation functions include ReLU, sigmoid, and tanh.
+
+Topic 10: Pooling layers reduce spatial dimensions while keeping important features.
+
+Topic 11: Transformers use self-attention and process sequences in parallel.
+
+Topic 12: Word embeddings represent words as dense vectors with semantic relationships.
+
+Topic 13: Transfer learning pretrains a model on large corpora and fine-tunes it for a target task.
+
+Topic 14: BERT uses bidirectional transformer training with masked language modeling.
+
+Topic 15: Self-attention lets a model weigh token relationships across a sequence.
+
+Topic 16: GPT is trained autoregressively to predict the next token.
+
+Topic 17: Instruction tuning improves alignment with human instructions.
+
+Topic 18: RLHF aligns model behavior using human preference feedback.
+
+Topic 19: Chain-of-thought prompting encourages step-by-step reasoning.
+
+Topic 20: GPT-4 supports up to 128K tokens of context.
+
+Topic 21: RAG combines retrieval with generation so answers are grounded in external knowledge.
+
+Topic 22: A RAG pipeline usually has a retriever and an LLM generator.
+
+Topic 23: Dense retrieval uses embeddings and similarity search to find relevant passages.
+
+Topic 24: Chunking strategy affects retrieval quality and context window fit.
+
+Topic 25: Advanced RAG techniques include reranking, query expansion, HyDE, and iterative retrieval.
+
+Topic 26: Vector databases store and search high-dimensional embeddings.
+
+Topic 27: FAISS is a library for efficient similarity search.
+
+Topic 28: Text embeddings map text into vectors where similar meanings are close together.
+
+Topic 29: HNSW is a graph-based approximate nearest neighbor search method.
+
+Topic 30: Hybrid search combines dense vector search with sparse keyword search.
+
+Topic 31: LangChain is a framework for building LLM applications.
+
+Topic 32: LCEL is LangChain's pipe-based composition language for chains.
+
+Topic 33: LangGraph adds stateful graph-based orchestration to LangChain.
+
+Topic 34: LangChain supports buffer, summary, window, and vector-store memory patterns.
+
+Topic 35: Retrievers fetch relevant documents for a query from a data source.
+
+Topic 36: LangSmith provides tracing, debugging, testing, and monitoring for LLM apps.
+
+Topic 37: LangSmith traces capture inputs, outputs, latency, token usage, and errors.
+
+Topic 38: Prompt Hub stores, versions, and shares prompt templates.
+
+Topic 39: LangSmith helps monitor production applications with latency, errors, and feedback data.
+
+Topic 40: Datasets in LangSmith are used for systematic evaluation and comparison.
+
+Topic 41: RAGAS is an evaluation framework for RAG pipelines.
+
+Topic 42: Faithfulness checks whether answer claims are supported by retrieved context.
+
+Topic 43: Answer relevancy measures whether the answer addresses the original question.
+
+Topic 44: Context recall checks how much relevant reference information appears in retrieved context.
+
+Topic 45: RAGAS evaluation needs questions, answers, retrieved contexts, and optional references.
+
+Topic 46: Guardrails AI adds validation and safety checks to LLM outputs.
+
+Topic 47: PII includes emails, phone numbers, SSNs, and credit card numbers.
+
+Topic 48: Structured output validation makes sure responses match a schema like JSON.
+
+Topic 49: Constitutional AI uses guiding principles and self-critique to improve responses.
+
+Topic 50: Common AI safety issues include hallucination, toxicity, bias, PII leakage, and jailbreaking.
